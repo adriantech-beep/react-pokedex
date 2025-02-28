@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  font-family: "Atkinson Hyperlegible Next", serif;
+  font-optical-sizing: auto;
+}
+
+.wrapperOuter {
+  padding: 1em;
+  list-style-type: none;
+  width: 20em;
+  height: 30em;
+  border-radius: 5px;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.wrapperInner {
+  height: 100%;
+}
+.nameWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Atkinson Hyperlegible Next", serif;
+}
+.name {
+  font-size: 2.2rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.hpWrapper {
+  font-family: "Atkinson Hyperlegible Next", serif;
+  display: flex;
+  align-items: center;
+}
+.hp {
+  font-weight: 500;
+}
+.value {
+  font-size: 2.5rem;
+}
+.imageWrapper {
+  width: 100%;
+}
+.imageWrapper img {
+  width: 100%;
+}
